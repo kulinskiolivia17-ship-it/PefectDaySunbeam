@@ -7,6 +7,8 @@ body {
     background-attachment: fixed;
     background-color: #c6e9c8;
     display: flex;
+    border: 3px solid black;
+
 
 }
 
@@ -18,6 +20,7 @@ body {
     font-size: 3vw;
     font-weight: 300;
     line-height: 1;
+    border: 3px solid black;
 
 }
 .start{
@@ -25,15 +28,21 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+    border: 3px solid black;
+
 }
 
 a {
+    display: flex;
     color: white;
     height: 40px;
+    width: 240px;
     border: 2px solid white;
     padding: 10px;
     border-radius: 19px;
     text-decoration: none;
     align-items: center;
+    justify-content: center;
+    border: 3px solid black;
 
 }
