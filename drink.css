@@ -44,12 +44,16 @@ body {
     background-color: #c6e9c8;
 }
 .duttons a.d1:hover {
-    animation: pulse 0.4s ease-out forwards;
+    animation: pulse 0.2s ease-out forwards;
 
 }
 .dutton a.d1:hover{
-    animation: pulse 0.4s ease-out forwards;
+    animation: pulse 0.2s ease-out forwards;
 
+}
+.duttons a.d1:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
 }
 @keyframes pulse {
     from{
@@ -58,4 +62,5 @@ body {
     to {
         transform: scale(1.05);
     }
+
 }

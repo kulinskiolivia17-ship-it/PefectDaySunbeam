@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background-image: url('images/homepagebackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #c6e9c8;
+    display: flex;
+
+}
+
+.welcome{
+    margin-left: 40px;
+    width: 100vw;
+    height: 50vh;
+    color: white;
+    font-size: 3vw;
+    font-weight: 300;
+    line-height: 1;
+
+}
+.start{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    height: 40px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 19px;
+    text-decoration: none;
+    align-items: center;
+
+}
