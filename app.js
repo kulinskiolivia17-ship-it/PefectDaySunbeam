@@ -1,7 +1,7 @@
 const API_KEY = "AIzaSyDjTfgw4na402WNMmCYzvkxqPClBfW0vbo";
 const BASE_URL = "https://www.googleapis.com/youtube/v3/search";
 
-const songs = localStorage.getItem('allEntries');
+const songs = localStorage.getItem('allEntries') || [];
 
 console.log(songs);
 // document.getElementById('songs').textContent = songs;
