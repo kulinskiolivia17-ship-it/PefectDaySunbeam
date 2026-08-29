@@ -1,26 +1,30 @@
+body {
+    height: 1000px;
+    background-color: #c6e9c8;
+}
+
 .duttons {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-
-    height: 100px;
-    width: 100%;
-    background-color: #b6d0fa;
-}
-
-.d1 {
-    height: 200px;
-    width: 200px;
-    background-color: rgb(232, 100, 122);
-}
-
-.dutton {
-    
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
 
+    height: 270px;
+    width: 100%;
+    background-color: #c6e9c8;
+}
+
+.d1 {
+    height: 260px;
+    width: 200px;
+    background-color: #fda6ab;
+}
+
+.dutton {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
     height: 100px;
     width: 100%;
-    background-color: #b6d0fa;
+    background-color: #c6e9c8;
 }

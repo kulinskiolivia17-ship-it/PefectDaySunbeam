@@ -1,0 +1,31 @@
+.duttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    width: 100%;
+    background-color: #b6d0fa;
+}
+
+.d1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(232, 100, 122);
+    margin: 20px;
+}
+
+.dutton {
+    
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    width: 100%;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
