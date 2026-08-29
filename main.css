@@ -32,3 +32,11 @@ header {
     gap: 20px;
     margin: 10px;
 }
+
+.card 
+{
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 15px; 
+}
