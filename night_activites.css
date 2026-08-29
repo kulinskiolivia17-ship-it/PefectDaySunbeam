@@ -1,42 +1,69 @@
 body {
     height: 1000px;
+    margin: 0;
     background-color: #c6e9c8;
 }
 
+/* First row - 3 buttons */
 .duttons {
-    margin-top: 10px;
+    margin-top: 50px;
+
     display: flex;
     justify-content: center;
-    gap: 30px;
-    height: 320px;
+    align-items: center;
+
+    gap: 50px;
+
     width: 100%;
+    min-height: 345px;
+
     background-color: #c6e9c8;
 }
 
-.d1 {
-    height: 360px;
-    width: 300px;
-    background-color: #fda6ab;
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
-}
-
-.d1 img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    object-position: center;
-    display: block;
-}
-
+/* Second row - 2 buttons */
 .dutton {
     margin-top: 50px;
+
     display: flex;
     justify-content: center;
-    gap: 30px;
-    height: 100px;
+    align-items: center;
+
+    gap: 50px;
+
     width: 100%;
+    min-height: 345px;
+
     background-color: #c6e9c8;
 }
+
+/* Button/card */
+.d1 {
+    height: 345px;
+    width: 345px;
+
+    display: block;
+
+    background-color: #fda6ab;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    text-decoration: none;
+
+    flex-shrink: 0;
+}
+
+/* Images inside buttons */
+.d1 img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+

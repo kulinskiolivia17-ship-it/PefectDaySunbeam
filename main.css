@@ -4,6 +4,7 @@
     font-weight: bold;
 }
 body {
+    cursor: url("images/cursor.png"), auto;
     background-color: #b6d0fa;
 }
 
@@ -31,4 +32,12 @@ header {
     justify-content: center;
     gap: 20px;
     margin: 10px;
+}
+.d1 {
+    display: inline-block;
+    cursor: url("images/point.png"), pointer;
+}
+
+.d1 img {
+    cursor: url("images/point.png"), pointer;
 }
