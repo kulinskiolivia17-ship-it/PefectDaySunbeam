@@ -33,6 +33,7 @@ header {
     gap: 20px;
     margin: 10px;
 }
+<<<<<<< HEAD
 .d1 {
     display: inline-block;
     cursor: url("images/point.png"), pointer;
@@ -40,4 +41,13 @@ header {
 
 .d1 img {
     cursor: url("images/point.png"), pointer;
+=======
+
+.card 
+{
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 15px; 
+>>>>>>> e60e95981b26a4132b64b45be17a5f13eddb7921
 }
