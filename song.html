@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="wake-up.css">
     </head>
     <body>
         <div class="header1">
@@ -12,18 +13,19 @@
         </div>
         <main>
             <div class="white-box">
-                <p>Your Choices!</p>
+                <p>Wakey wakey! There's so many times that you can wake up! Choose the best time that will make you feel the greates and have the most energy :D</p>
             </div>
 
-            <div class="card">
-                <h2>Your Choices</h2>
-                <p id="wake-up"></p>
-                <p id="snack"></p>
-                <p id="goSomewhere2"></p>
+            <h1>YouTube Video Search</h1>
+            <div id="search-container">
+                <input type="text" id="query" placeholder="Search for videos" />
+                <button onclick="searchVideos()">Search</button>
             </div>
-           
+            <div id="reults"></div>
         </main>
         <footer></footer>
+
     <script src="script.js"></script>
+    <!-- <script src="app.js"></script> -->
     </body>
 </html>
