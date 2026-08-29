@@ -1,0 +1,26 @@
+body {
+    background-color: #b6d0fa;
+}
+
+header {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.header1 {
+    background-color: white;
+    border-radius: 15px; 
+    text-align: center;
+}
+
+.white-box {
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
