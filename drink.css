@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-around;
 
-    height: 320px;
+    height: 380px;
     width: 100%;
     background-color: #c6e9c8;
 }
@@ -31,6 +31,8 @@ body {
     object-position: center;
     display: block;
 
+    transition: transform 0.3s ease;
+
 }
 .dutton {
     margin-top: 50px;
@@ -40,4 +42,20 @@ body {
     height: 100px;
     width: 100%;
     background-color: #c6e9c8;
+}
+.duttons a.d1:hover {
+    animation: pulse 0.4s ease-out forwards;
+
+}
+.dutton a.d1:hover{
+    animation: pulse 0.4s ease-out forwards;
+
+}
+@keyframes pulse {
+    from{
+    transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
 }
