@@ -4,7 +4,7 @@ const BASE_URL = "https://www.googleapis.com/youtube/v3/search";
 const songs = localStorage.getItem('allEntries');
 
 console.log(songs);
-document.getElementById('songs').textContent = songs;
+// document.getElementById('songs').textContent = songs;
 
 const songsJSON = JSON.parse(songs);
 
@@ -15,8 +15,8 @@ songsJSON.forEach(song => {
     songCard.classList.add("song-card");
 
     songCard.innerHTML = `
-    <h3>${song.title}/h3>
-    <a>${song.url}</a>
+    <h3 class="nomargin">${song.title}</h3>
+    <a href="${song.url}" class="colored" target="_blank">Play Song</a>
     `
 
     console.log(song.title);
